@@ -1,0 +1,11 @@
+com\example\demo\DemoApplication.class
+com\example\demo\model\Produto.class
+com\example\demo\exception\ResourceNotFoundException.class
+com\example\demo\exception\GlobalExceptionHandler$ErrorResponse.class
+com\example\demo\repository\ProdutoRepository.class
+com\example\demo\controller\ProdutoController.class
+com\example\demo\service\ProdutoService.class
+com\example\demo\dto\ProdutoDTO$Response.class
+com\example\demo\dto\ProdutoDTO$Request.class
+com\example\demo\exception\GlobalExceptionHandler.class
+com\example\demo\dto\ProdutoDTO.class
