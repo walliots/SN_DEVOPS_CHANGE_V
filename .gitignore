@@ -1,0 +1,18 @@
+# Compiled
+target/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.eclipse
+
+# Credenciais sensíveis
+src/main/resources/application.properties
+
+# OS
+.DS_Store
+Thumbs.db
