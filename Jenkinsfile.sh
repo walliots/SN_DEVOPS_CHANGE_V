@@ -26,9 +26,7 @@ pipeline {
 
         stage('ServiceNow Change') {
             steps {
-                snDevOpsChange(
-                    toolId: '3623b2f8938d075000263f018bba10e7'
-                )
+                snDevOpsChange()
             }
         }
     }
