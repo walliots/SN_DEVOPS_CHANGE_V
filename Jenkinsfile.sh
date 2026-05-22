@@ -23,6 +23,12 @@ pipeline {
                 sh 'mvn test'
             }
         }
+
+        stage('ServiceNow Change') {
+            steps {
+                snDevOpsChange()
+            }
+        }
     }
 
     post {
